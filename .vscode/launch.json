@@ -6,10 +6,10 @@
     "configurations": [
         {
             "name": "(gdb) Launch",
-            "preLaunchTask": "echo",
+            "preLaunchTask": "full-build",
             "type": "cppdbg",
             "request": "launch",
-            "program": "${workspaceFolder}/tetris.exe",
+            "program": "${workspaceFolder}/bin/tetris.exe",
             "args": [],
             "stopAtEntry": false,
             "cwd": "${workspaceFolder}",

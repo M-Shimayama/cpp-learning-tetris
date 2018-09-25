@@ -8,18 +8,29 @@
             "type":"shell",
             "command":"windres" ,
             "args": [
-                "-i","block.rc",
-                "-o","block.o"
+                "-i","${workspaceFolder}/block.rc",
+                "-o","${workspaceFolder}/obj/block.o"
             ]
         },
         {
-            "label": "echo",
+            "label": "build",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
             "type": "shell",
             "command": "g++",
             "args":[
-                "-mwindows","tetris.cpp","block.o",
-                "-o","tetris.exe"
+                "-mwindows",
+                "-g",
+                "-o","${workspaceFolder}/bin/tetris.exe"
+                ,"tetris.cpp","${workspaceFolder}/obj/block.o"
             ]   
+        },
+        {
+            "label": "full-build",
+            "type": "shell",
+            "command":"${workspaceFolder}/full-build.bat"
         }
     ]
 }
