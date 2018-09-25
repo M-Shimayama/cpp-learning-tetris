@@ -1,0 +1,37 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "C:/Program Files (x86)/Windows Kits/10/Include/10.0.17134.0/cppwinrt/winrt",
+                "C:/Program Files (x86)/Windows Kits/10/Include/10.0.17134.0/shared",
+                "C:/Program Files (x86)/Windows Kits/10/Include/10.0.17134.0/ucrt",
+                "C:/Program Files (x86)/Windows Kits/10/Include/10.0.17134.0/um",
+                "C:/Program Files (x86)/Windows Kits/10/Include/10.0.17134.0/winrt",
+                "${workspaceRoot}"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "windowsSdkVersion": "8.1",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "msvc-x64",
+            "browse": {
+                "path": [
+                    "C:/Program Files (x86)/Windows Kits/10/Include/10.0.17134.0/cppwinrt/winrt",
+                    "C:/Program Files (x86)/Windows Kits/10/Include/10.0.17134.0/shared",
+                    "C:/Program Files (x86)/Windows Kits/10/Include/10.0.17134.0/ucrt",
+                    "C:/Program Files (x86)/Windows Kits/10/Include/10.0.17134.0/um",
+                    "C:/Program Files (x86)/Windows Kits/10/Include/10.0.17134.0/winrt",
+                    "${workspaceRoot}"
+                ],
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            }
+        }
+    ],
+    "version": 4
+}
